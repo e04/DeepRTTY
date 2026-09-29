@@ -1,0 +1,46 @@
+{
+  "fldigi": {
+    "commit": "61b97f4133c488063f3de1795c894d22d5032e8a",
+    "files": {
+      "src/cw_rtty/rtty.cxx": "5536e935e0e60e9316fc315e6af42a8bdb0aedfd3fbca64dc8e8fbeb6edfaff5",
+      "src/include/rtty.h": "2770017c9adc7a659d143d2eee7084895ce787e06a3a21597869aae1bd399785",
+      "src/include/fftfilt.h": "ad6a0870e0f3dcc7bd268d12b51faf520409ce71d7fb2814cc1fb74cc42e271f",
+      "src/include/gfft.h": "4290721f0caaf26622f4bf51a28382dfcdf57e07316888deb77c1fcaf66db600",
+      "src/include/complex.h": "ed053993abc3e502ebefdc5d4ff2f96234ed40c8f82d42d3175a08f610422d1e",
+      "src/include/misc.h": "584d871f4410194c2fbc25ab95795dd138336fb98c900f4b1d8b8a5964513ffc",
+      "src/filters/fftfilt.cxx": "1eae8bd0e69c267eb611b357043905201c401e90c7bb098c9b31ec370938f7ad",
+      "COPYING": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    }
+  },
+  "mmtty": {
+    "commit": "5a21f1db8fb5b53486cfa66d6bf0a953a2ae762c",
+    "files": {
+      "Rtty.cpp": "63c354450bbaf545b0df526591d9ac2503331937b78e5c19fb340c3cf58951e1",
+      "Rtty.h": "d0c24b22afa5fa510091cfd0a8cf5583dfe92aec2a007ec561d60767011d9147",
+      "fir.cpp": "e42c057e95b0e5620cba7e5e04132729511bf39be0be5cd31a8ffbab74eb187c",
+      "fir.h": "e8a5979a718cbe903a085a605c21f37241c6801c30da680e70c9636ade41b5f1",
+      "COPYING.txt": "c53a65c2fd561c87eaabf1072ef5dcab8653042bc15308465f52413585eb6271",
+      "COPYING.LESSER.txt": "ea8af5e789cb2d4e9b10bce3874982ade163b749b6bfbdb32e2df21c4d106de1"
+    }
+  },
+  "minimodem": {
+    "commit": "bb2f34cf5148f101563aa926e201d306edbacbd3",
+    "files": {
+      "src/minimodem.c": "aaf396e4fbdc9934c19b595b0cb88a57426d87c6da896718d1115bfca6e926a6",
+      "src/fsk.c": "451d30ab5a2e819d0c5248e30a35d1eb1aa9a4f559d3c52edf3014f088826d86",
+      "src/fsk.h": "37d7d532c2c862ebad7e51e4919c6ddf8cb6d0670ee33e46d9ea549e451afad2",
+      "src/simpleaudio.h": "3997935340da7c0b77ae85bef9240f7a88e124519ad250a70d346124e2eb6d40",
+      "src/databits.h": "606303a7268b1fb8f3f57b5e49e815855be37b2143d3d8e79fc12eb075ebfb14",
+      "src/baudot.h": "a09bbe79eb9e42e7598611337b4a63a5ee9779e8ed5093464f38282d278be987",
+      "src/baudot.c": "a4e3b131b77c1a1593ca598fe4197b2b120cedeed95ff0a1f4ca376880f31fe0",
+      "src/uic_codes.h": "cd3d69cf8cc3b4272f083893d0f562dbf5ce25bca4274ce57fb21e60f54e7b49",
+      "src/uic_codes.c": "e490fe8934080414aaf8cf3e23f5f71c10aae13834e9e99b929b81cbdd2d4b51",
+      "src/databits_ascii.c": "76b39dcbd6b2d1cdcfb1fd5b70f4fb04b9e993b27b1d8f8c2806dbebc559e80c",
+      "src/databits_binary.c": "328629c062041a4a72e3e17bfafa44c8ee26a7c09b18d80e6eca408e3ebe7564",
+      "src/databits_callerid.c": "c4ad8aab2f174d6d5bab848d79b90a479e71dece30b1b2fce3657a98398de1c0",
+      "src/databits_baudot.c": "caae74002090f7c3294427d017ccb9e7b385443fe44edee0edcd142e296f640a",
+      "src/databits_uic.c": "15cd750381f627e450932b849c04b35bc9c7c48f44434cda9cdd4c39ee0631b6",
+      "COPYING": "ce53c08777ca7b4174d8c7522f3be7afadd22d812fed90d0a71a9b6bc3a60785"
+    }
+  }
+}

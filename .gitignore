@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Node.js
+node_modules/
+npm-debug.log*
+*.ses
+
+# Python
+__pycache__/
+*.py[cod]
+.python-version
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Generated benchmark output
+benchmarks/results/*.tmp
+benchmarks/src/.build/
+
+# Local environment
+.env
+.env.*
+!.env.example

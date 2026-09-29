@@ -1,0 +1,101 @@
+{
+  "seed": 20000000,
+  "sample_rate": 3200,
+  "window_seconds": 30.0,
+  "model_window_seconds": 12.0,
+  "model_hop_seconds": 8.0,
+  "baud": 45.45,
+  "shift_hz": 170.0,
+  "center_hz": 800.0,
+  "snr_reference_bandwidth_hz": 2500.0,
+  "snr_db": [
+    -18.0,
+    -16.0,
+    -14.0,
+    -12.0,
+    -10.0,
+    -8.0,
+    -6.0,
+    -4.0,
+    -2.0,
+    0.0,
+    2.0,
+    4.0,
+    6.0
+  ],
+  "samples_per_snr": 40,
+  "total_samples": 520,
+  "backend": "native",
+  "decoders": {
+    "fldigi": {
+      "backend": "native",
+      "language": "C++",
+      "upstream_commit": "61b97f4133c488063f3de1795c894d22d5032e8a",
+      "binary_sha256": "dbc553548e0ed9a5d370dfd27c305bbffd08149ec3f37602c34b76d515df1f99",
+      "adapter_sha256": {
+        "build.py": "ae763eebaf825ee5fc8b4d35d82550b12de2cb2b1cff4a93b2bf2ef933da76c3",
+        "fldigi_adapter.cpp": "43c57ea7429736322d7310a7af71cf8594c1ddd0a41781bd2bf8859d1b2ed3f3",
+        "mmtty_adapter.cpp": "f4db800853d76c22b87a34ebf36554529df35b8a49aca3ca573ee0972ba811b8",
+        "minimodem_audio.c": "f7ed45c4e3640245bf2ece9bf73fc69f0919364fca551a26a2bf521a73dbd76c",
+        "input.h": "5e6c028e431f4c7c6798d5fde8610dd314118f5e87b41f4a68b67d0d7cd1980b"
+      },
+      "compiler": "Apple clang version 21.0.0 (clang-2100.1.1.101)",
+      "optimization": "-O3",
+      "processing_sample_rate": 8000,
+      "transport": "float32 PCM, subprocess per sample, raw ITA2 output",
+      "afc": false,
+      "squelch": false
+    },
+    "minimodem": {
+      "backend": "native",
+      "language": "C",
+      "upstream_commit": "bb2f34cf5148f101563aa926e201d306edbacbd3",
+      "binary_sha256": "3896ac8d99bceaf91ec58bcf51e44e3a0a50d10d74fe62bb6ec994705c0f9ad9",
+      "adapter_sha256": {
+        "build.py": "ae763eebaf825ee5fc8b4d35d82550b12de2cb2b1cff4a93b2bf2ef933da76c3",
+        "fldigi_adapter.cpp": "43c57ea7429736322d7310a7af71cf8594c1ddd0a41781bd2bf8859d1b2ed3f3",
+        "mmtty_adapter.cpp": "f4db800853d76c22b87a34ebf36554529df35b8a49aca3ca573ee0972ba811b8",
+        "minimodem_audio.c": "f7ed45c4e3640245bf2ece9bf73fc69f0919364fca551a26a2bf521a73dbd76c",
+        "input.h": "5e6c028e431f4c7c6798d5fde8610dd314118f5e87b41f4a68b67d0d7cd1980b"
+      },
+      "compiler": "Apple clang version 21.0.0 (clang-2100.1.1.101)",
+      "optimization": "-O3",
+      "processing_sample_rate": "input",
+      "transport": "float32 PCM, subprocess per sample, raw ITA2 output",
+      "afc": false,
+      "squelch": false
+    },
+    "mmtty": {
+      "backend": "native",
+      "language": "C++",
+      "upstream_commit": "5a21f1db8fb5b53486cfa66d6bf0a953a2ae762c",
+      "binary_sha256": "43de419721517b75a65c3c34d4d659ed63141ef56277461398fa2c24e4e59584",
+      "adapter_sha256": {
+        "build.py": "ae763eebaf825ee5fc8b4d35d82550b12de2cb2b1cff4a93b2bf2ef933da76c3",
+        "fldigi_adapter.cpp": "43c57ea7429736322d7310a7af71cf8594c1ddd0a41781bd2bf8859d1b2ed3f3",
+        "mmtty_adapter.cpp": "f4db800853d76c22b87a34ebf36554529df35b8a49aca3ca573ee0972ba811b8",
+        "minimodem_audio.c": "f7ed45c4e3640245bf2ece9bf73fc69f0919364fca551a26a2bf521a73dbd76c",
+        "input.h": "5e6c028e431f4c7c6798d5fde8610dd314118f5e87b41f4a68b67d0d7cd1980b"
+      },
+      "compiler": "Apple clang version 21.0.0 (clang-2100.1.1.101)",
+      "optimization": "-O3",
+      "processing_sample_rate": 8000,
+      "transport": "float32 PCM, subprocess per sample, raw ITA2 output",
+      "afc": false,
+      "squelch": false
+    }
+  },
+  "runtime_scope": "End-to-end decode, including audio resampling, PCM transport and subprocess startup for native receivers; excludes build and warmup.",
+  "mmtty": {
+    "upstream_commit": "5a21f1db8fb5b53486cfa66d6bf0a953a2ae762c",
+    "sample_rate": 8000,
+    "filter_taps": 512,
+    "filter_attenuation_db": 60.0,
+    "smoothing_hz": 300.0,
+    "limiter_agc": true,
+    "majority_logic": true,
+    "squelch": false,
+    "afc": false,
+    "atc": false
+  }
+}

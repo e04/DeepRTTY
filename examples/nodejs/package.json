@@ -1,0 +1,13 @@
+{
+  "name": "deep-rtty-onnx-nodejs-example",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "stream": "node rtty_stream.mjs",
+    "test": "node --test rtty_stream.test.mjs"
+  },
+  "dependencies": {
+    "onnxruntime-node": "^1.18.0"
+  }
+}
