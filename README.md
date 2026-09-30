@@ -2,7 +2,7 @@
 
 DeepRTTY is a ML-based decoder for amateur-radio RTTY mode. This repository contains the inference model, minimal Python and Node.js implementations, and a reproducible comparison with conventional RTTY demodulators.
 
-DEMO (Integrated into DeepCW; can be enabled in Settings.): https://deepcw.cc/　
+DEMO (Integrated into DeepCW; can be enabled in Settings.): https://deepcw.cc/
 
 ## Receiving audio
 
