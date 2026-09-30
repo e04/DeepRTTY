@@ -2,6 +2,8 @@
 
 DeepRTTY is a ML-based decoder for amateur-radio RTTY mode. This repository contains the inference model, minimal Python and Node.js implementations, and a reproducible comparison with conventional RTTY demodulators.
 
+DEMO (Integrated into DeepCW; can be enabled in Settings.): https://deepcw.cc/　
+
 ## Receiving audio
 
 The wanted RTTY signal must already be centered at 800 Hz, 45.45-baud, 170 Hz-shift FSK. Pipe mono 3,200 samples/s s16le PCM to the Python or Node.js stream receiver:
